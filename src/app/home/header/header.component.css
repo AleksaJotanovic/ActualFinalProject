@@ -1,0 +1,42 @@
+/* HEADER STYLING */
+.header {
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+/* HEADER CONTAINER STYLING */
+.hdrdiv-1 h1 {
+  font-size: 55px;
+  color: rgb(255, 255, 255, 0.8);
+  font-family: var(--font-family);
+}
+.hdrdiv-2 button {
+  cursor: pointer;
+  font-family: var(--font-family);
+  background: none;
+  color: rgb(255, 255, 255, 0.8);
+  border: 2px solid rgb(255, 255, 255, 0.8);
+  font-size: 19px;
+  margin-top: 2rem;
+  height: 60px;
+  padding: 0 7rem 0 7rem;
+  transition: background 250ms ease-in-out 1ms;
+}
+.hdrdiv-2 button:hover {
+  background: rgb(43, 80, 245, 0.4);
+}
+
+/* MOBILE STYLING */
+@media screen and (min-width: 280px) {
+  .hdrdiv-1 h1 {
+    font-size: 35px;
+  }
+  .hdrdiv-2 button {
+    font-size: 16px;
+    padding: 0 13px 0 13px;
+  }
+}

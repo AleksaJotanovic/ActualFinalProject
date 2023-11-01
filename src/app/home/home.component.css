@@ -1,0 +1,708 @@
+.main-section {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.container-1 {
+  color: rgb(90, 90, 90);
+  padding: 2.5rem;
+}
+.container-1 p {
+  line-height: 35px;
+}
+.container-1 h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.container-1 hr {
+  border: 1px solid #2b50f5;
+  margin: 1.5rem 0 1.5rem 0;
+}
+.container-2 {
+  display: grid;
+  gap: 20px;
+}
+
+.img-1 {
+  background-image: url("../../assets/Images/homeGalleryItem1.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-2 {
+  background-image: url("../../assets/Images/homeGalleryItem2.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-3 {
+  background-image: url("../../assets/Images/homeGalleryItem3.jpeg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-4 {
+  background-image: url("../../assets/Images/homeGalleryItem4.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-5 {
+  background-image: url("../../assets/Images/homeGalleryItem5.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-6 {
+  background-image: url("../../assets/Images/homeGalleryItem6.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-7 {
+  background-image: url("../../assets/Images/homeGalleryItem7.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-8 {
+  background-image: url("../../assets/Images/homeGalleryItem8.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-9 {
+  background-image: url("../../assets/Images/homeGalleryItem9.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-10 {
+  background-image: url("../../assets/Images/homeGalleryItem10.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-11 {
+  background-image: url("../../assets/Images/homeGalleryItem11.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-12 {
+  background-image: url("../../assets/Images/homeGalleryItem12.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-13 {
+  background-image: url("../../assets/Images/homeGalleryItem13.jpeg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-14 {
+  background-image: url("../../assets/Images/homeGalleryItem14.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-15 {
+  background-image: url("../../assets/Images/homeGalleryItem15.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-16 {
+  background-image: url("../../assets/Images/homeGalleryItem16.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-17 {
+  background-image: url("../../assets/Images/homeGalleryItem17.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-18 {
+  background-image: url("../../assets/Images/homeGalleryItem18.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-19 {
+  background-image: url("../../assets/Images/homeGalleryItem19.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-20 {
+  background-image: url("../../assets/Images/homeGalleryItem20.png");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-21 {
+  background-image: url("../../assets/Images/homeGalleryItem21.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-22 {
+  background-image: url("../../assets/Images/homeGalleryItem22.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-23 {
+  background-image: url("../../assets/Images/homeGalleryItem23.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+.img-24 {
+  background-image: url("../../assets/Images/homeGalleryItem24.jpg");
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100%;
+  transition: background-size 250ms ease-in-out 1ms;
+}
+
+.details-1,
+.details-2,
+.details-3,
+.details-4,
+.details-5,
+.details-6,
+.details-7,
+.details-8,
+.details-9,
+.details-10,
+.details-11,
+.details-12,
+.details-13,
+.details-14,
+.details-15,
+.details-16,
+.details-17,
+.details-18,
+.details-19,
+.details-20,
+.details-21,
+.details-22,
+.details-23,
+.details-24 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  line-height: 37px;
+  padding-top: 25px;
+  transition: background-color 250ms ease-in-out 1ms;
+}
+.details-1:hover,
+.details-2:hover,
+.details-3:hover,
+.details-4:hover,
+.details-5:hover,
+.details-6:hover,
+.details-7:hover,
+.details-8:hover,
+.details-9:hover,
+.details-10:hover,
+.details-11:hover,
+.details-12:hover,
+.details-13:hover,
+.details-14:hover,
+.details-15:hover,
+.details-16:hover,
+.details-17:hover,
+.details-18:hover,
+.details-19:hover,
+.details-20:hover,
+.details-21:hover,
+.details-22:hover,
+.details-23:hover,
+.details-24:hover {
+  background-color: rgba(43, 80, 245, 0.5);
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover,
+.img-4:hover,
+.img-5:hover,
+.img-6:hover,
+.img-7:hover,
+.img-8:hover,
+.img-9:hover,
+.img-10:hover,
+.img-11:hover,
+.img-12:hover,
+.img-13:hover,
+.img-14:hover,
+.img-15:hover,
+.img-16:hover,
+.img-17:hover,
+.img-18:hover,
+.img-19:hover,
+.img-20:hover,
+.img-21:hover,
+.img-22:hover,
+.img-23:hover,
+.img-24:hover {
+  background-size: 310px;
+}
+.img-1:hover .details-1,
+.img-2:hover .details-2,
+.img-3:hover .details-3,
+.img-4:hover .details-4,
+.img-5:hover .details-5,
+.img-6:hover .details-6,
+.img-7:hover .details-7,
+.img-8:hover .details-8,
+.img-9:hover .details-9,
+.img-10:hover .details-10,
+.img-11:hover .details-11,
+.img-12:hover .details-12,
+.img-13:hover .details-13,
+.img-14:hover .details-14,
+.img-15:hover .details-15,
+.img-16:hover .details-16,
+.img-17:hover .details-17,
+.img-18:hover .details-18,
+.img-19:hover .details-19,
+.img-20:hover .details-20,
+.img-21:hover .details-21,
+.img-22:hover .details-22,
+.img-23:hover .details-23,
+.img-24:hover .details-24 {
+  display: block;
+  text-align: center;
+}
+
+.container-2 button {
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  font-family: var(--font-family);
+  color: white;
+  border: 1px solid white;
+  background: none;
+  cursor: pointer;
+  transition: background 250ms ease-in-out 1ms;
+}
+.container-2 button:hover {
+  background: rgba(255, 255, 255);
+  color: #2b50f5;
+}
+
+/* MOBILE SETUP: MAIN SECTION */
+@media screen and (min-width: 280px) {
+  .container-2 {
+    grid-template-columns: 270px;
+    grid-template-rows: repeat(24, 270px);
+  }
+}
+@media screen and (min-width: 600px) {
+  .container-2 {
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(7, 270px);
+  }
+}
+@media screen and (min-width: 1080px) {
+  .container-2 {
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows: repeat(8, 270px);
+  }
+}
+@media screen and (min-width: 1300px) {
+  .container-2 {
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(6, 270px);
+  }
+}
+
+/*-------------------------------  S E C O N D  S E C T I O N  S E T U P  ----------------------------------*/
+.section-two {
+  width: 100%;
+  height: fit-content;
+  color: rgb(255, 255, 255);
+  background-image: url("../../assets/Images/shirtsBackground.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.section-two div {
+  background-color: rgba(43, 80, 245, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 5rem;
+}
+.section-two h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.section-two p {
+  margin-top: 2rem;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 280px) {
+  .section-two div {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .section-two div {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .section-two div {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .section-two div {
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .section-two div {
+    padding: 3.5rem;
+  }
+}
+
+/*--------------------------------  C O N T A C T  S E C T I O N  S E T U P  --------------------------------- */
+
+.contact-section {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+/* Caption setup */
+.caption-cnt {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: rgb(90, 90, 90);
+  text-align: center;
+  height: fit-content;
+  padding: 2rem 0 2rem 0;
+}
+.caption-cnt h1 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.caption-cnt div {
+  background-color: #2b50f5;
+  height: 1px;
+  width: 90vw;
+  margin: auto;
+}
+.caption-cnt p {
+  margin: 1rem;
+}
+
+.info-cnt {
+  height: fit-content;
+  padding: 3rem 0 5rem 3rem;
+}
+.info-cnt .logo {
+  display: flex;
+  align-items: center;
+}
+.info-cnt h1 {
+  font-size: 60px;
+  color: #2b50f5;
+  font-family: var(--logo-font);
+  font-style: italic;
+}
+.info-cnt .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info-cnt .info h3 {
+  color: rgb(74, 74, 74);
+  font-weight: 1000;
+  font-size: 23px;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.info-cnt .info p {
+  color: rgb(74, 74, 74);
+  line-height: 45px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sendmsg-cnt {
+  height: fit-content;
+}
+.sendmsg-cnt form {
+  margin: 2.5rem;
+}
+.sendmsg-cnt form div {
+  display: flex;
+  flex-direction: column;
+  margin: 21px 0 1rem 0;
+  position: relative;
+}
+.sendmsg-cnt form div label {
+  color: rgb(140, 140, 140);
+  position: absolute;
+  font-size: 13px;
+  padding-left: 12px;
+  padding-top: 7px;
+  transition: color 250ms ease-in-out 1ms;
+}
+.sendmsg-cnt form div input {
+  height: 55px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  outline: none;
+  text-indent: 11px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.sendmsg-cnt form div input::-webkit-input-placeholder {
+  color: rgb(221, 221, 221);
+}
+.sendmsg-cnt form div input:focus {
+  border: 1px solid #2b79f5;
+}
+.sendmsg-cnt form div input:focus + label {
+  color: rgb(199, 199, 199);
+}
+.sendmsg-cnt form div textarea {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  outline: none;
+  text-indent: 11px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  transition: border 250ms ease-in-out 1ms;
+}
+.sendmsg-cnt form div textarea:focus {
+  border: 1px solid #2b79f5;
+}
+.sendmsg-cnt form div textarea:focus + label {
+  color: rgb(199, 199, 199);
+}
+.sendmsg-cnt form button {
+  height: fit-content;
+  width: fit-content;
+  padding: 13px 1.5rem 13px 1.5rem;
+  border: none;
+  background: #2b79f5;
+  border-radius: 8px;
+  color: white;
+  margin-top: 20px;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 250ms ease-in-out 1ms;
+}
+.sendmsg-cnt form button:hover {
+  background: #2b50f5;
+}
+
+/* Mobile setup */
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .contact-section {
+    grid-template-columns: 100%;
+  }
+
+  .caption-cnt {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    padding: 2rem 0 3rem 0;
+  }
+
+  .info-cnt {
+    padding: 2rem 2rem 0 2rem;
+  }
+  .info-cnt svg {
+    width: 40px;
+    height: 40px;
+  }
+  .info-cnt h1 {
+    font-size: 40px;
+  }
+
+  .sendmsg-cnt form {
+    margin: 1rem;
+  }
+  .sendmsg-cnt form div {
+    margin: 5px 0 1rem 0;
+  }
+}
+
+/* LAST SECTION SETUP */
+.last-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.lastsec-row-1 {
+  background-color: #2b79f5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  text-align: center;
+  height: 20rem;
+}
+.lastsec-row-1 button {
+  margin-top: 10px;
+  background: none;
+  font-weight: bold;
+  font-family: var(--font-family);
+  color: white;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 20px;
+  transition: background 250ms ease-in-out 1ms;
+  cursor: pointer;
+}
+.lastsec-row-1 button:hover {
+  background: white;
+  color: #2b79f5;
+}
+.lastsec-row-2 {
+  background: url("../../assets/Images/vintageVinylBackground.jpg") no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20rem;
+}
+
+/* Mobile setup */
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .last-section {
+    grid-template-columns: 100%;
+  }
+  .lastsec-row-1 {
+    padding: 2rem;
+  }
+}

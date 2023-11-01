@@ -1,0 +1,56 @@
+.offcanvas {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: 0.4s;
+}
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 17px 20px;
+  border-bottom: 1px solid rgb(163, 160, 160);
+}
+.sidebar button {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.sidebar button i {
+  font-size: 28px;
+  color: #222831;
+}
+.sidebar-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-logo h1 {
+  font-size: 30px;
+  color: #2b50f5;
+  font-family: var(--logo-font);
+  font-style: italic;
+}
+
+.offcanvas-menu {
+  display: grid;
+  row-gap: 1rem;
+  padding: 25px;
+}
+.offcanvas-menu a {
+  color: #222831;
+  transition: color 250ms ease-in-out 1ms;
+}
+.offcanvas-menu a:hover {
+  color: #2b50f5;
+}
